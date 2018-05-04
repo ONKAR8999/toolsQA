@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sprint1">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="UnitTest.BrowserFactorytest"/>
+      <class name="UnitTest.TestConfigFile"/>
+      <class name="UnitTest.TestExcelfile"/>
+      <class name="UnitTest.DataProviderFactoryTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Sprint1 -->

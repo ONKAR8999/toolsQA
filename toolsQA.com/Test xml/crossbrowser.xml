@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="toolsQA" parallel="tests">
+
+
+  <test thread-count="5" name="crossbroswertestfirefox">
+  <parameter name="Browser" value="Firefox"/>
+    <classes>
+      <class name="TestCases.VerifyregistrationPage"/>
+    </classes>
+  </test> 
+  
+  
+  
+  <!-- test thread-count="5" name="crossbroswertestchrome">
+  <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="TestCases.VerifyregistrationPage"/>
+    </classes>
+  </test--> 
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [toolsQA]" parallel="tests">
+  <parameter name="Browser" value="Firefox"/>
+  <test name="crossbroswertestfirefox(failed)" parallel="tests">
+    <parameter name="Browser" value="Firefox"/>
+    <classes>
+      <class name="TestCases.VerifyregistrationPage">
+        <methods>
+          <include name="verifyregistation" invocation-numbers="0"/>
+          <include name="endTestcase"/>
+        </methods>
+      </class> <!-- TestCases.VerifyregistrationPage -->
+    </classes>
+  </test> <!-- crossbroswertestfirefox(failed) -->
+</suite> <!-- Failed suite [toolsQA] -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [home and registration]">
+  <test name="Testin1(failed)">
+    <classes>
+      <class name="TestCases.VerifyregistrationPage">
+        <methods>
+          <include name="verifyregistation"/>
+        </methods>
+      </class> <!-- TestCases.VerifyregistrationPage -->
+    </classes>
+  </test> <!-- Testin1(failed) -->
+</suite> <!-- Failed suite [home and registration] -->
